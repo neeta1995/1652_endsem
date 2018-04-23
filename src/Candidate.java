@@ -6,6 +6,12 @@ public class Candidate {
 	String cand_id;
 	int votes;
 	
+	public int getVotes() {
+		return votes;
+	}
+	public void setVotes(int votes) {
+		this.votes = votes;
+	}
 	public String getCand_name() {
 		return cand_name;
 	}
@@ -32,6 +38,7 @@ public class Candidate {
 		this.cand_id = cand_id;
 		this.votes = votes;
 	}
+	
 	
 
 	
