@@ -49,7 +49,7 @@ public class Cast_vote {
 				// result += "\t" + each.getCandidate().getCand_name() + "\t" + each.getCandidate().getCand_constituency() +"\t" + vote2;
 			 }
 			 
-			 result += "\t" + each.getCandidate().getCand_name() + "\t" + each.getCandidate().getCand_constituency() +"\n";
+			 result += "\t" + each.getCandidate().getCand_name() + "\t" + each.getCandidate().getCand_constituency() +"\t" + each.getCandidate().getVotes() ;
 
 			 
 			
